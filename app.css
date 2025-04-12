@@ -39,12 +39,10 @@ ul,ol {
     row-gap: 24px;
 }
 
-.row > * {
-	padding: 0 12px;
-}
 
 .w-33{
     width: 33.33%;
+   
 }
 
 /* Card */
