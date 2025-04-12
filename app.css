@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding; 0;
+}
+
+/* Header */
+
+.container-header {
+text-align: center;
+}
+
+.title-team{
+    padding-bottom: 20px;
+    color: #e53170
+}
+
+.intro {
+font-size: 12 px;
+padding: 50px 0;
+}
+
+/* Main */
+
+ul,ol {
+    list-style: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+
+.row > * {
+	padding: 0 12px;
+}
+
+.w-33{
+    width: 33.33%;
+}
+
+/* Card */
+.card{
+    background-color: black;
+    border: solid 1px grey;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-body{
+
+
+}
+
+.Name {
+    color: white;
+}
+
+.job{
+    color: white;
+}
+
+.mail{
+    color: #6ecbf2;
+}
